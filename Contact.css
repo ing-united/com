@@ -1,0 +1,100 @@
+ .u-section-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 718px;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  font-size: 3.75rem;
+  margin: 87px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-size: 1.875rem;
+  width: 624px;
+  font-weight: 700;
+  margin: 20px auto 0;
+}
+
+.u-section-1 .u-icon-1 {
+  width: 212px;
+  height: 212px;
+  margin: -195px auto 60px 0;
+  padding: 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-icon-1 {
+    margin-top: -189px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-2 {
+    width: auto;
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+
+  .u-section-1 .u-icon-1 {
+    width: 159px;
+    height: 159px;
+    margin-top: -168px;
+    margin-right: 0;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-icon-1 {
+    width: 112px;
+    height: 112px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    font-size: 3rem;
+    width: auto;
+    margin-top: 169px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: 25px;
+  }
+
+  .u-section-1 .u-icon-1 {
+    margin-top: -298px;
+    margin-right: auto;
+  }
+}
+
+a.my-button{
+  background: linear-gradient(to right,#0e2845 ,#6433E0);
+  background-color: #0e2845;
+  color: #fff;
+  font-family: Trebuchet MS;
+  font-size: 18px;
+  font-weight: 800;
+  font-style: normal;
+  text-decoration: none;
+  padding: 14px 57px;
+  border: 0px solid #000;
+  border-radius: 10px;
+  display: inline-block;
+ }
+ a.my-button:hover{
+  background: linear-gradient(to right,#525968 ,#7d5ee3);
+  background-color: #525968;
+ }
+ a.my-button:active{
+  transform: scale(0.95);
+ }
