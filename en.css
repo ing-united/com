@@ -73,12 +73,12 @@
 
 .u-section-2 .u-text-1 {
   font-weight: 700;
-  margin: 27px auto 0;
+  margin: 26px auto 0;
 }
 
 .u-section-2 .u-layout-wrap-1 {
-  margin-top: 0;
-  margin-bottom: 6px;
+  margin-top: 21px;
+  margin-bottom: 37px;
 }
 
 .u-section-2 .u-layout-cell-1 {
@@ -352,13 +352,14 @@
 
 .u-section-3 .u-text-2 {
   font-weight: 700;
+  font-size: 1.875rem;
   margin: 44px 0 0;
 }
 
 .u-section-3 .u-video-1 {
   height: 419px;
   width: 554px;
-  margin: -434px auto 0 0;
+  margin: -469px auto 0 0;
 }
 
 .u-section-3 .embed-responsive-1 {
@@ -370,7 +371,7 @@
 }
 
 .u-section-3 .u-line-1 {
-  margin-top: 38px;
+  margin-top: 73px;
   margin-bottom: 3px;
   transform-origin: left center 0px;
 }
@@ -471,6 +472,10 @@
     font-size: 1.5rem;
   }
 
+  .u-section-3 .u-text-2 {
+    font-size: 1.5rem;
+  }
+
   .u-section-3 .u-video-1 {
     height: 257px;
     margin-top: 20px;
@@ -518,7 +523,7 @@
 .u-section-4 .u-image-1 {
   width: 570px;
   height: 390px;
-  margin: -438px 0 60px auto;
+  margin: -438px 0 48px auto;
 }
 
 @media (max-width: 1199px) {
@@ -582,7 +587,7 @@
     width: 540px;
     height: 362px;
     margin-top: 21px;
-    margin-bottom: 60px;
+    margin-bottom: 48px;
   }
 }
 
@@ -615,7 +620,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 180deg;
   --animation-custom_in-scale: 1;
-  margin: -58px auto 0 387px;
+  margin: -58px auto 0 393px;
 }
 
 .u-section-5 .u-list-1 {
@@ -1615,24 +1620,3 @@
     margin-bottom: 31px;
   }
 }
-a.my-button{
-  background: linear-gradient(to right,#0e2845 ,#6433E0);
-  background-color: #0e2845;
-  color: #fff;
-  font-family: Trebuchet MS;
-  font-size: 18px;
-  font-weight: 800;
-  font-style: normal;
-  text-decoration: none;
-  padding: 14px 57px;
-  border: 0px solid #000;
-  border-radius: 10px;
-  display: inline-block;
- }
- a.my-button:hover{
-  background: linear-gradient(to right,#525968 ,#7d5ee3);
-  background-color: #525968;
- }
- a.my-button:active{
-  transform: scale(0.95);
- }
